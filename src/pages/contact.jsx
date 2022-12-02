@@ -26,7 +26,9 @@ const Contact = () => {
           </ul>
         </div>
 
-        <img className="img-container" src={Logo} />
+        <div className="img-container">
+          <img src={Logo} />
+        </div>
       </div>
     </>
   );
