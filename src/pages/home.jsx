@@ -39,7 +39,7 @@ const Home = () => {
             vous pouvez naviguer sur ce site pour vous amuser et vous renseigner
             sur les maladies sexuellement transmissibles.
             <br></br>
-            <Link className="link-to" to="/Jeu">
+            <Link className="link-to" to="/Nuit-Info-React/Jeu">
               Jouer →
             </Link>
           </h2>
@@ -75,7 +75,7 @@ const Home = () => {
               Utilisations de contraceptifs (préservatifs, pilules...) <br></br>
               <Link
                 className="link-to  little-l"
-                to={"/Informations?target=protection"}
+                to={"/Nuit-Info-React/Informations?target=protection"}
               >
                 Voir plus →
               </Link>
@@ -125,7 +125,7 @@ const Home = () => {
               primer c’est important !<br></br>
               <Link
                 className="link-to little-l"
-                to={"/Informations?target=ecouter"}
+                to={"/Nuit-Info-React/Informations?target=ecouter"}
               >
                 Voir plus →
               </Link>
@@ -154,7 +154,7 @@ const Home = () => {
               Il faut s’informer sur les sites dédiés !<br></br>
               <Link
                 className="link-to  little-l"
-                to={"/Informations"}
+                to={"/Nuit-Info-React/Informations"}
                 onClick={() => {
                   window.scrollTo(0);
                 }}
