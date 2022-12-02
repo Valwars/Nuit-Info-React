@@ -26,14 +26,20 @@ function App() {
       <ThemeButton></ThemeButton>
       <div className="container">
         <Routes>
-          <Route path="/" element={<Home></Home>}></Route>
+          <Route path="/Nuit-Info-React/" element={<Home></Home>}></Route>
           <Route
-            path="/Informations"
+            path="/Nuit-Info-React/Informations"
             element={<Informations></Informations>}
           ></Route>
-          <Route path="/Jeu" element={<Jeu></Jeu>}></Route>
-          <Route path="/Contact" element={<Contact></Contact>}></Route>
-          <Route path="/Mention" element={<Mention></Mention>}></Route>
+          <Route path="/Nuit-Info-React/Jeu" element={<Jeu></Jeu>}></Route>
+          <Route
+            path="/Nuit-Info-React/Contact"
+            element={<Contact></Contact>}
+          ></Route>
+          <Route
+            path="/Nuit-Info-React/Mention"
+            element={<Mention></Mention>}
+          ></Route>
         </Routes>
       </div>
       <Footer_page />
